@@ -1,0 +1,11 @@
+nacos:
+  config:
+    ext-config[0]:
+      data-id: nacos.log
+      group: LOG_DEVELOP
+      max-retry: 10
+      type: yaml
+      auto-refresh: true
+      config-retry-time: 2333
+      config-long-poll-timeout: 46000
+      enable-remote-sync-config: true
